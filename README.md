@@ -29,6 +29,8 @@ donde se identifican raiz, niveles, nodos internos y hojas.
 ---
 
 ## Estructura del Repositorio
+
+```
 arbol-bst-empresa-cpp/
 ├── deberarboles.cpp
 ├── capturas/
@@ -39,6 +41,7 @@ arbol-bst-empresa-cpp/
 │   ├── Capturapostorden.png
 │   └── Capturaalturas.png
 └── README.md
+```
 ---
 
 ## Funcionalidades Implementadas
