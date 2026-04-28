@@ -1,4 +1,4 @@
-# 🌳 Arbol Binario de Busqueda (BST) - Organigrama Empresarial
+# Arbol Binario de Busqueda (BST) - Organigrama Empresarial
 
 **Asignatura:** Estructura de Datos  
 **Facultad:** FISEI - Universidad Tecnica de Ambato  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Objetivo
+## Objetivo
 
 Implementar en C++ un Arbol Binario de Busqueda (BST) para organizar empleados de una empresa
 usando un codigo numerico como clave. El ejercicio se relaciona con el organigrama empresarial,
@@ -15,7 +15,7 @@ donde se identifican raiz, niveles, nodos internos y hojas.
 
 ---
 
-## 👤 Integrantes del Grupo
+## Integrantes del Grupo
 
 | Rol | Nombre | Responsabilidad |
 |-----|--------|-----------------|
@@ -28,7 +28,46 @@ donde se identifican raiz, niveles, nodos internos y hojas.
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
+arbol-bst-empresa-cpp/
+├── deberarboles.cpp
+├── capturas/
+│   ├── CapturaCopilacion.png
+│   ├── Capturamenu.png
+│   ├── Capturabusqueda.png
+│   ├── Capturarecorrido.png
+│   ├── Capturapostorden.png
+│   └── Capturaalturas.png
+└── README.md
+---
+
+## Funcionalidades Implementadas
+
+- Insertar empleados (codigo, nombre, cargo)
+- Buscar empleado por codigo
+- Mostrar la raiz del arbol
+- Recorrido Inorden — orden ascendente por codigo
+- Recorrido Preorden — raiz, izquierda, derecha
+- Recorrido Postorden — izquierda, derecha, raiz
+- Calcular altura del arbol
+- Mostrar nodos hoja (sin hijos)
+- Estadisticas generales del arbol
+
+---
+
+## Datos de Prueba
+
+| Codigo | Nombre | Cargo | Tipo de nodo |
+|--------|--------|-------|--------------|
+| 50 | Empresa UTA | Raiz | Raiz |
+| 30 | Gerente Ventas | Nodo interno | Nodo interno |
+| 70 | Gerente Finanzas | Nodo interno | Nodo interno |
+| 20 | Emp 1 | Hoja | Hoja |
+| 40 | Emp 2 | Hoja | Hoja |
+| 60 | Emp 3 | Hoja | Hoja |
+| 80 | Emp 4 | Hoja | Hoja |
+
+### Estructura visual del arbol
 50 (Empresa UTA)
     /                \
     30 (G. Ventas)    70 (G. Finanzas)
@@ -36,7 +75,7 @@ donde se identifican raiz, niveles, nodos internos y hojas.
 20(H)    40(H)      60(H)     80(H)
 ---
 
-## 🔨 Compilacion y Ejecucion
+## Compilacion y Ejecucion
 
 **Linux / Mac:**
 ```bash
@@ -52,29 +91,29 @@ arbol.exe
 
 ---
 
-## 📸 Capturas de Ejecucion
+## Capturas de Ejecucion
 
 ### Compilacion exitosa
-![Compilacion](capturas/captura1_compilacion.png)
+![Compilacion](capturas/CapturaCopilacion.png)
 
 ### Menu principal
-![Menu](capturas/captura2_menu.png)
+![Menu](capturas/Capturamenu.png)
 
 ### Insercion y busqueda de empleados
-![Insercion y busqueda](capturas/captura3_insercion_busqueda.png)
+![Busqueda](capturas/Capturabusqueda.png)
 
 ### Recorridos Inorden y Preorden
-![Recorridos](capturas/captura4_recorridos.png)
+![Recorridos](capturas/Capturarecorrido.png)
 
 ### Recorrido Postorden
-![Postorden](capturas/captura5_postorden.png)
+![Postorden](capturas/Capturapostorden.png)
 
 ### Altura, nodos hoja y estadisticas
-![Estadisticas](capturas/captura6_altura_hojas_stats.png)
+![Alturas](capturas/Capturaalturas.png)
 
 ---
 
-## 📚 Conceptos Clave
+## Conceptos Clave
 
 | Termino | Definicion | Ejemplo en el arbol |
 |---------|-----------|---------------------|
@@ -87,7 +126,7 @@ arbol.exe
 
 ---
 
-## 📊 Rubrica de Evaluacion
+## Rubrica de Evaluacion
 
 | Criterio | Puntaje |
 |----------|---------|
@@ -102,7 +141,7 @@ arbol.exe
 
 ---
 
-## ✅ Evidencia Entregada
+## Evidencia Entregada
 
 - [x] Link del repositorio GitHub
 - [x] Codigo fuente en C++ (`main.cpp`)
@@ -113,7 +152,7 @@ arbol.exe
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 
 El Arbol Binario de Busqueda (BST) permite organizar informacion jerarquica de manera eficiente.
 La busqueda, insercion y recorridos tienen complejidad O(log n) en casos balanceados, lo que lo
