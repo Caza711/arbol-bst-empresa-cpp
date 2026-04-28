@@ -71,11 +71,14 @@ arbol-bst-empresa-cpp/
 | 80 | Emp 4 | Hoja | Hoja |
 
 ### Estructura visual del arbol
-50 (Empresa UTA)
-    /                \
-    30 (G. Ventas)    70 (G. Finanzas)
-/       \           /        
-20(H)    40(H)      60(H)     80(H)
+
+```
+            50 (Empresa UTA)
+           /                \
+    30 (G.Ventas)       70 (G.Finanzas)
+      /      \             /       \
+   20(H)    40(H)       60(H)     80(H)
+```
 ---
 
 ## Compilacion y Ejecucion
